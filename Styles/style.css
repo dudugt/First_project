@@ -1,16 +1,83 @@
+/* link da fonte copiada do google */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+
+
+/* Reset de propiedades de tela */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-grid {
+
+    width: 80%;
+    margin: 0 auto;
+    background-color: purple;
+}
+
+
+
+/* style para todo o corpo do HTML */
 body{
-    font-family: sans-serif;
+    font-family: 'Quicksand', sans-serif;
     color: grey;
 }
 
+/* cor para fundo do cabeçalho */
 header{
-    background-color: grey;
+    background-color: black;
+
+}header .header-flex{
+
+    display: flex;
+    justify-content: space-between ;
+}
+
+
+/* Style para h1 do header */
+header h1{
+    color: white;
+    font-weight: 300;
+    border:2px solid blue;
+}
+
+header h1 #LogoUX {
+    font-weight: 600;
+    font-style: italic;
+}
+
+/* style para a nav  */
+header nav {
+    color: white;
+    text-decoration: none;
+    border:2px solid magenta;
 
 }
 
-header a{
+header nav a {
     color: white;
     text-decoration: none;
-    
+   
 
+h2{
+    /* width: 300px;
+     height: 300px; 
+    border: solid purple;
+
+    margin-top: 11.250px;
+
+    margin-right: 11.250px;
+
+    margin-bottom: 11.250px;
+
+    margin-left: 11.250px;
+
+    padding-top: 11.250px;
+
+    padding-right: 11.250px;
+
+    padding-bottom: 11.250px;
+
+    padding-left: 11.250px; */
 }
