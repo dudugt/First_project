@@ -1,0 +1,162 @@
+/* link da fonte copiada do google */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+
+
+/* Reset de propiedades de tela */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-grid {
+
+    width: 80%;
+    max-width: 1200px;
+    min-width: 992px;
+    margin: 0 auto;
+    /* background-color: purple; */
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* style para todo o corpo do HTML */
+body{
+    font-family: 'Quicksand', sans-serif;
+    /* color: grey; */
+    color: black;
+    background-color: #EFEFEF;
+}
+
+/* cor para fundo do cabeçalho */
+header{
+    background-color: #676767;
+
+}header .header-flex{
+
+    display: flex;
+    justify-content: space-between ;
+}
+
+
+/* Style para h1 do header */
+header h1{
+    color: white;
+    font-weight: 300;
+    /* border:2px solid blue; */
+}
+
+header h1 #LogoUX {
+    font-weight: 600;
+    font-style: italic;
+}
+
+/* style para a nav  */
+header nav {
+    
+    width: 250px;
+    /* border:2px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+
+}
+
+
+header nav a {
+    color: white;
+    text-decoration: none;
+
+}
+
+main{
+
+    margin-top: 20px;
+}
+
+main .colunas-flex{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+#lapis{
+    width: 100%;
+}
+
+.coluna1 {
+    width: 75%;
+    background-color: white;
+}
+
+section h2,p{
+
+    margin: 20px;
+    font-size: 15px;
+
+}
+
+/* Aside nome do ID Slide */
+#slide{
+    width: 20%;
+    /* background-color: yellow; */
+}
+
+/* Caixas da aside */
+main #slide article{
+
+    background-color: white ;
+    padding-bottom: 130px;
+    margin-bottom: 20px;
+    
+}
+
+#slide article h3 {
+    padding: 5px 0;
+    margin-bottom: 15px;
+     
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+}
+
+aside article{
+    
+    border: solid red;
+    padding: 0 10px;
+    display:flex ;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+ article form input{ 
+
+    /* width: 75%;
+    height: 35%; */
+    border: solid black;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+#Lista {
+
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+
+footer{
+
+    background-color: #676767;
+    color: white;
+    margin-top: 20px;
+    /* padding: 20px 0; */
+}
